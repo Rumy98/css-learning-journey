@@ -4,10 +4,7 @@
     padding: 0;
 }
 
-h4{
-    font-size: 50px;
-    color: brown;
-}
+
 .myClass{
     font-size: 50px;
     color: #a52a2a;
@@ -16,4 +13,7 @@ h4{
     color: aquamarine;
     font-size: 60px;
 }
-h2
+h2,h4{
+    color: aqua;
+    font-size: 30px;
+}
