@@ -17,3 +17,36 @@ h2,h4{
     color: aqua;
     font-size: 30px;
 }
+div>section>h3{
+    font-size: 45px;
+    color: blue;
+    
+}
+.btn{
+    background-color: blue;
+    padding: 18px 24px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+.mydivClass h5:first-child{
+    font-size: large;
+    text-align: center;
+    color: blueviolet;
+}
+
+.mydivClass h5:second-child{
+    font-size: large;
+    text-align: center;
+    color: rgb(208, 226, 43);
+}
+.mydivClass h5:last-child{
+    font-size: large;
+    text-align: center;
+    color: rgb(226, 43, 141);
+}
+.btn:hover{
+    background-color: aqua;
+    padding-right: 55px;
+    padding-bottom: 30px;
+}
