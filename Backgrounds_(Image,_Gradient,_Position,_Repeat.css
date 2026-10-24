@@ -1,4 +1,41 @@
 body{
-    background-image: url(assets/goku_and_vegeta.jpg);
+     background-image: url(assets/goku_and_vegeta.jpg);
+    background-size:150px auto;
     background-repeat:no-repeat;
+    /* background-repeat: repeat-x; */
+    background-position: bottom right;
+    /*background-size: cover; */
+    height: 100vh;
+    border: 2px dashed aqua;
+
+    
+}
+
+.First-div{
+    width: auto;height: 150px;
+    border: 5px solid brown;
+    background: linear-gradient(to right,red,green);
+}
+.Sec-div{    
+    width: auto;height: 150px;
+    border: 3px dotted white;
+    background: radial-gradient(circle,red,green);
+}
+.Third-div{
+    border: 10px ridge violet;
+}
+.Fourth-div{
+    border: 5px groove green;
+}
+button{
+    border: none;
+}
+.circle{
+   
+    height:100px;
+    width: 100px; 
+    border-style: outset;
+    background-color: blue;
+    border-radius: 50%;
+    border-color:10px solid black;
 }
