@@ -1,3 +1,4 @@
 body{
-    background-image: url(assets/goku_and_vegeta.jpg)
+    background-image: url(assets/goku_and_vegeta.jpg);
+    background-repeat:no-repeat;
 }
